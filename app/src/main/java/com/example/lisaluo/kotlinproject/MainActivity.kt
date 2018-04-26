@@ -1,7 +1,9 @@
 package com.example.lisaluo.kotlinproject
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v4.content.ContextCompat
+import android.support.v7.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         configureWith(Person.IZZY)
     }
 
-    fun configureWith(type: Person) {
-
+    private fun configureWith(p: Person) {
+        AnimationUtils.backgroundColorAnimation(content, ContextCompat.getColor(this,p.favoriteColor)).start()
     }
 }
