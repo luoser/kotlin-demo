@@ -5,5 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="chartreuse">#7fff00</color>
-    <color name="blue"></color>
+    <color name="blue">#3DADED</color>
+    <color name="red">#ED363E</color>
 </resources>
