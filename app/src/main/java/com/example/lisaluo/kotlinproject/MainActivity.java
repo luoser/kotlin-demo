@@ -25,8 +25,10 @@ public final class MainActivity extends Activity {
 
     public void configureWith(@NonNull final Person person) {
         // set the bigger emoji image
+        emoji.setImageResource(person.getEmojiImageId());
 
         // set the name
+        name.setText(person.getFirstName());
 
         // start the background color animation
     }
@@ -36,7 +38,7 @@ public final class MainActivity extends Activity {
         configureWith(Person.LISA);
     }
 
-    @OnClick(R.id.lisa)
+    @OnClick(R.id.izzy)
     public void sleuthOrSpyClicked() {
         configureWith(Person.IZZY);
     }
