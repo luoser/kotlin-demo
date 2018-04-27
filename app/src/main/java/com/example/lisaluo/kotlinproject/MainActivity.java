@@ -11,10 +11,25 @@ public final class MainActivity extends Activity {
     protected void onCreate(@Nullable final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        configureWith(Person.IZZY);
     }
 
     public void configureWith(@NonNull final Person person) {
-        
+        // set the bigger emoji image
+
+        // set the name
+
+        // start the background color animation
+    }
+
+    public void dancerClicked() {
+        configureWith(Person.LISA);
+    }
+
+    public void sleuthOrSpyClicked() {
+        configureWith(Person.IZZY);
+    }
+
+    public void thinkingFaceClicked() {
+        configureWith(Person.KEVIN);
     }
 }
