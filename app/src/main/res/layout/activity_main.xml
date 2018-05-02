@@ -31,19 +31,19 @@
             android:id="@+id/lisa"
             style="@style/SpeakerImageView"
             android:contentDescription="@null"
-            android:src="@mipmap/dancer" />
+            android:src="@drawable/lisa" />
 
         <ImageButton
             android:id="@+id/izzy"
             style="@style/SpeakerImageView"
             android:contentDescription="@null"
-            android:src="@mipmap/sleuth_or_spy" />
+            android:src="@drawable/izzy" />
 
         <ImageButton
             android:id="@+id/kevin"
             style="@style/SpeakerImageView"
             android:contentDescription="@null"
-            android:src="@mipmap/thinking_face" />
+            android:src="@drawable/kevin" />
     </LinearLayout>
 
 </RelativeLayout>
