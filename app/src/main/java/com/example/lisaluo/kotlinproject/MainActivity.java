@@ -44,17 +44,17 @@ public final class MainActivity extends Activity {
     }
 
     @OnClick(R.id.lisa)
-    public void dancerClicked() {
+    public void lisaClicked() {
         configureWith(Person.LISA);
     }
 
     @OnClick(R.id.izzy)
-    public void sleuthOrSpyClicked() {
+    public void izzyClicked() {
         configureWith(Person.IZZY);
     }
 
     @OnClick(R.id.kevin)
-    public void thinkingFaceClicked() {
+    public void kevinClicked() {
         configureWith(Person.KEVIN);
     }
 }
